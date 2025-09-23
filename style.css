@@ -66,5 +66,20 @@ body {
 .hero_img img{
     height: 500px;
     width:250px
-
+}
+.main_hero{
+    
+    display: flex;
+    width: 1000px;
+}
+.main_text{
+    display: flex;
+    padding-top: 68px;
+    padding-bottom:40px;
+    color: white;
+    font-weight: 800;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing:-0.3px;
+    line-height:56px;
 }
