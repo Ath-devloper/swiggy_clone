@@ -70,11 +70,15 @@ body {
 .main_hero{
     
     display: flex;
-    width: 1000px;
+    width: 1040px;
+    /* border: 2px solid black; */
+    height:350px;
+   
 }
 .main_text{
     display: flex;
-    padding-top: 68px;
+    flex-direction: column;
+    padding-top: 80px;
     padding-bottom:40px;
     color: white;
     font-weight: 800;
@@ -82,4 +86,40 @@ body {
     text-align: center;
     letter-spacing:-0.3px;
     line-height:56px;
+
+}
+.input_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 45px;
+    gap:16px
+}
+.location{
+    display: flex;
+    height:60px;
+    width: 300px;
+    padding: 0px 16px;
+    border-radius: 16px;
+    border: 1.5px solid rgba(2, 6, 12, .15);
+}
+input::placeholder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+    font-size: larger;
+    font-weight: 400;
+}
+.restaurant{
+    height:60px;
+    display:flex;
+    width: 500px;
+    padding: 0px 16px;
+    border-radius: 16px;
+    border: 1.5px solid rgba(2, 6, 12, .15);
+}
+.three_images{
+    
+
 }
