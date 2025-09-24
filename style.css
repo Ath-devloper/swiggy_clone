@@ -59,14 +59,15 @@ body {
 }
 .hero{
     background-color: rgb(255, 82, 0);
-    height: 620px;
+    height: 660px;
     display: flex;
     justify-content: space-between;
+    /* border:2px solid black; */
 }
 .hero_img img{
     height: 500px;
     width:250px
-}
+} 
 .main_hero{
     
     display: flex;
@@ -120,6 +121,9 @@ input::placeholder{
     border: 1.5px solid rgba(2, 6, 12, .15);
 }
 .three_images{
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -330px;
 
 }
