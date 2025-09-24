@@ -125,5 +125,11 @@ input::placeholder{
     justify-content: center;
     align-items: center;
     margin-top: -330px;
-
+}
+.food_options{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height:350px;
 }
