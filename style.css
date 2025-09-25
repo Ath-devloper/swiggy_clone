@@ -129,7 +129,9 @@ input::placeholder{
     margin-top: -330px;
 }
 .food-options-section{
-    padding:100px 150px;
+    padding:0px 150px;
+    padding-top: 100px;
+    padding-bottom: 80px;
     /* padding-top: 500px; */
     /* border: 2px solid black; */
 }
@@ -182,4 +184,99 @@ input::placeholder{
 
 .food-options img {
   width: 180px;
+}
+.shop_grocery .food-option-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 0px 150px; */
+}
+.grocery_images_one{
+    display: flex;
+    /* border: 2px solid black; */
+    padding-top: 28px;
+    gap: 30px;
+
+
+}
+.grocery_images_one img{
+    width:150px;
+    height: 180px;
+
+}
+.shop_grocery{
+    /* border: 2px solid black; */
+    padding: 0px 150px;
+}
+.grocery_images_text{
+    display: flex;
+    justify-content: center;
+    /* width: 100%; */
+    padding:10px 150px ;
+    /* border: 2px solid black; */
+    /* justify-content: space-between; */
+    gap:130px;
+    font-family: Gilroy;
+    font-weight: 800;
+    color: rgba(2, 6, 12, 0.75);
+}
+.banner{
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+.cities_food_delivery{
+    /* display:flex; */
+    padding:0px 220px;
+    padding-top: 10px;
+    /* border:2px solid black; */
+    height: 350px;
+}
+.delivery_head{
+    font-family: gilroy;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: -0.6px;
+    /* border: 2px solid black; */
+}
+.button_blocks {
+    display: flex;
+    /* border: 2px solid black; */
+    height: 260px;
+    text-decoration: none;
+    padding:10px;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-content: flex-start;
+}
+.banglore {
+    text-decoration: none;
+    border: 1.5px solid rgba(2, 6, 12, 0.15);
+    padding:16px 18px;
+    border-radius: 15px;
+
+}
+.button_blocks a{
+    text-decoration: none;
+    color: rgba(2, 6, 12, 0.75);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: -0.35px;
+    text-align: center;
+}
+.ddggKg {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 16px;
+    gap: 8px;
+    -webkit-box-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1.5px solid rgba(2, 6, 12, 0.15);
+    border-radius: 12px;
+    height: auto;
+    text-decoration: none;
+    cursor: pointer;
+    width: calc(25% - 32px);
 }
