@@ -54,8 +54,10 @@ body {
 
 }
 
-.arrow-icon{
+.btn-1 .arrow-icon{
     rotate: -45deg;
+    background-color: rgb(255, 82, 0);
+    color: white;
 }
 .hero{
     background-color: rgb(255, 82, 0);
@@ -126,57 +128,58 @@ input::placeholder{
     align-items: center;
     margin-top: -330px;
 }
-.second_part{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    height:500px;
-    /*padding: 20px 150px; */
-    border: 2px solid black;
-
+.food-options-section{
+    padding:100px 150px;
+    /* padding-top: 500px; */
+    /* border: 2px solid black; */
 }
-.food_options{
-    height: 350px;
-    width:80%;
+.food-option-heading{
     display: flex;
-    /* background-color: black; */
-    border:2px solid black;
-
-}
-.two_head_text{
-    font-size: 24px;
-    font-family: gilroy;
-    font-weight: 700;
-    line-height: 26px;
-    letter-spacing: -0.6px;
-    color: rgba(2, 6, 12, 0.92);
-
-}
-.two_header{
-    display:flex;
-    /* border:2px solid black; */
-    width: 100%;
-    height: 55px;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid black; */
 }
-.arrow-btn {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  border: none;
-  background: #e0e0e0;
+.arrow-wrapper {
+  display: flex;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.fa-arrow-left {
+  background-color: rgb(232, 232, 232);
+  color: gray;
   cursor: pointer;
-  gap:15px;
 }
 
-.arrow-btn:hover {
-  background: #c9c9c9;
+.fa-arrow-right {
+  background-color: rgb(214, 214, 214);
+  color: rgb(79, 79, 79);
+  cursor: pointer;
 }
 
-
-.arrow {
-  font-size: 20px;  
-  font-weight:bolder;
+.arrow-wrapper i {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+}
+.food-options {
+  display: flex;
+  /* justify-content: space-between; */
+  padding: 10px 0;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  /* overflow-x: auto; */
+}
+.food-options a {
+  color: black;
+  text-decoration: none;
 }
 
+.food-options img {
+  width: 180px;
+}
