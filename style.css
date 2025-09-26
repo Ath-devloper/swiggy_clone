@@ -302,12 +302,11 @@ input::placeholder{
     padding:0px 150px;
     padding-top: 80px;
     height:540px;
+    display: flex;
+    flex-direction: column;
+    
     /* display: flex;
     flex-direction: column; */
-}
-.restos .food-option-heading{
-    /* border: 2px solid black; */
-
 }
 .resto_img_1 a{
     display: flex;
@@ -328,6 +327,7 @@ input::placeholder{
     width: 100%;
     padding:12px;
     font-family: Gilroy;
+    
 }
 .details_one,.details_two,.details_three,.details_four,.details_five{
     display:flex;
@@ -340,10 +340,13 @@ input::placeholder{
     border-radius: 16px;
     width: 350px;
     margin-top:16px;
+    flex-shrink: 0;
+    
     /* display: flex;
     flex-direction: column; */
 
 }
+
 .details_three button{
     border: none;
     border-radius: 12px;
@@ -375,6 +378,7 @@ input::placeholder{
     padding-left: 8px;
     height:36px;
     color: green;
+    
 }
 .img_resto{
   width: 100%;
@@ -387,4 +391,18 @@ input::placeholder{
   color: white;
   display: flex;
   align-items: flex-end;
+  /* flex-shrink: 0; */
+}
+.card h2{
+    padding-left: 12px;
+}
+.resto_body{
+    display: flex;
+    gap: 16px;
+    width: 100%;         
+    overflow-x: auto;         
+    scroll-snap-type: x mandatory;
+}
+.resto_body::-webkit-scrollbar {
+  display: none;
 }
