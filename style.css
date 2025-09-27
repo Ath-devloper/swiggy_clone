@@ -448,3 +448,19 @@ input::placeholder{
     flex-direction: column;
     gap: 16px;
 }
+.athy {
+    font-family: Gilroy;
+    color: rgba(2, 6, 12, 0.92);
+}
+.ldPKOn {
+    display: flex;
+    -webkit-box-pack: start;
+    justify-content: start;
+    -webkit-box-align: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 16px;
+}
+.Social{
+    margin-top:24px;
+}
